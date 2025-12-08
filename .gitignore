@@ -1,7 +1,31 @@
+# Byte-compiled / cache
 __pycache__/
-data/
-.env
+
+
+*.py[cod]
+
+# Virtual environments
 venv/
-__pycache__/
+ENV/
+env/
+.venv/
+myvenv/
+
+# Project data and secrets
 data/
 .env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Python packaging / build
+dist/
+build/
+*.egg-info/
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.tox/
